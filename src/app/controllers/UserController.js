@@ -48,7 +48,7 @@ function checkFileType(file, callback) {
 }
 const emitSocketEvent = async (room, event, payload) => {
     try {
-        await axios.post('https://77bc-171-250-162-139.ngrok-free.app/api/emit-to-room', {
+        await axios.post('https://socket-cnm-13.onrender.com/api/emit-to-room', {
             room,
             event,
             payload

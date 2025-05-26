@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const socket = io('https://77bc-171-250-162-139.ngrok-free.app', {
+const socket = io('https://socket-cnm-13.onrender.com', {
     transports: ['websocket'],
     reconnection: true,
 });

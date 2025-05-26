@@ -686,11 +686,6 @@ class MessageController {
         }
     }
 
-
-
-
-
-
     async findNewestMessage(req, res) {
         try {
             let index = 0

@@ -8,10 +8,6 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Heartnet2411/CongNgheMoi.git"
-  },
   "keywords": [
     "Zola",
     "ChatApp"
