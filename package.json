@@ -1,0 +1,50 @@
+{
+  "name": "zola-server",
+  "version": "1.0.0",
+  "description": "Nhóm 13 - Công nghệ mới trong phát triển ứng dụng Công nghệ thông tin",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heartnet2411/CongNgheMoi.git"
+  },
+  "keywords": [
+    "Zola",
+    "ChatApp"
+  ],
+  "author": "NhutMinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhbui2003"
+  },
+  "homepage": "https://github.com/ThaoUyen1103/CongNgheMoi/edit/master/README.md",
+  "dependencies": {
+    "aws-sdk": "^2.1588.0",
+    "axios": "^1.9.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.13.2",
+    "mongoose-delete": "^1.0.2",
+    "mongoose-slug-generator": "^1.0.4",
+    "mongoose-slug-updater": "^3.3.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
