@@ -367,7 +367,7 @@ class MessageController {
         // ✅ BỎ CHÚ THÍCH (UNCOMMENT) KHỐI NÀY
         try {
             // Gọi đến Socket Server (đang chạy ở port 3005)
-            await axios.post('http://localhost:3005/api/emit-to-room', {
+            await axios.post('https://socket-cnm-13.onrender.com/api/emit-to-room', {
                 room: conversationIdStr,
                 event: 'message-recalled',
                 payload: recalledMessage // Gửi object tin nhắn đã cập nhật
