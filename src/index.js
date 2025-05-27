@@ -76,7 +76,7 @@ import route from './routes/index.js';
 import db from './config/db/index.js';
 
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 const server = createServer(app);
 
 // ✅ Khởi tạo Socket.IO với cấu hình CORS đầy đủ
